@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#wrapp{
+    text-align: center;
+    width: 50%;
+    height: 450px;
+    justify-content: center;
+    margin: 50px auto;
+    align-items: center;
+    position: relative;
+    border: 1px solid;
+}
+#startBtn{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+/*    display: none;*/
+    background-color: #1400ff;
+    width: 50%;
+}
+#circle{
+    width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #c9302c;
+  color: white;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 26px;
+}
+#playAgain{
+    display: none;
+    background-color: #ff0027;
+    width: 50%;
+    border: none;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+}
+.container{
+    display: none;
+    height: 100%;
+}
+#totalScore{
+    width: 100%;
+    border-bottom: 1px solid;
+    padding: 10px;
+    font-weight: bold;
+}
+.container-players{
+    display: flex;
+    height: max-content;
+}
+.player1{
+    width: 50%;
+    display: grid;
+}
+.player2{
+    width: 50%;
+    display: grid;
+}
+button{
+    width: 75%;
+    margin: 0 auto;
+    border: none;
+    background: orange;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+h2{
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 0.5rem; 
+     line-height: 1.2;
+}
+h3{
+    margin: 100px auto;
+    text-align: center;
+    font-size: 5rem;
+}
+.btn{
+    margin: 35px auto;
+    background-color: greenyellow;
+}
+[disabled]{
+    cursor: no-drop;
+    background-color: rgba(255, 69, 0, 0.65);
+}
+[disabled]:hover{
+    cursor: no-drop;
+    background-color: rgba(255, 69, 0, 0.77);
+}
